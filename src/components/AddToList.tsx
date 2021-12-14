@@ -43,7 +43,6 @@ export const AddToList: React.FC<IState> = ({ pokemon, setPokemon }) => {
         type="text"
         placeholder="Poke Name"
         onChange={handleChange}
-        value={input.name}
         name="name"
       />
       <button onClick={handleSubmit}>Submit</button>
